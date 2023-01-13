@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="50" Width="53" Click="Button_Click" Grid.ColumnSpan="1" BorderThickness="0,0,0,0">
+            <Button.Background>
+                <ImageBrush ImageSource="/Hamburger_icon.svg.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="51" Margin="581,10,0,0" VerticalAlignment="Top" Width="49" BorderThickness="0,0,0,0">
+            <Button.Background>
+                <ImageBrush ImageSource="/585e4bf3cb11b227491c339a.png"/>
+            </Button.Background>
+        </Button>
+
+          
+
     </Grid>
 </Window>

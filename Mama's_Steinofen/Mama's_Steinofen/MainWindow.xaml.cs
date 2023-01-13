@@ -24,5 +24,10 @@ namespace Mama_s_Steinofen
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
