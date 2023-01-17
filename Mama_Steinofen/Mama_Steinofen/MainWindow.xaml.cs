@@ -24,5 +24,19 @@ namespace Mama_Steinofen
         {
             InitializeComponent();
         }
+
+        private void Switch_Login(object sender, RoutedEventArgs e)
+        {
+            Login objLogin = new Login();
+            this.Visibility = Visibility.Hidden;
+            objLogin.Show();
+        }
+
+        private void Switch_Einkaufswagen(object sender, RoutedEventArgs e)
+        {
+            Einkaufswagen objEinkaufswagen = new Einkaufswagen();
+            this.Visibility = Visibility.Hidden;
+            objEinkaufswagen.Show();
+        }
     }
 }
