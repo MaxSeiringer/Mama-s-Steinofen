@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mama_s_Steinofen.Properties
+namespace Mama_Steinofen.Properties
 {
 
 

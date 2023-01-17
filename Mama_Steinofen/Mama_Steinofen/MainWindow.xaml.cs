@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mama_s_Steinofen
+namespace Mama_Steinofen
 {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
@@ -23,11 +23,6 @@ namespace Mama_s_Steinofen
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
