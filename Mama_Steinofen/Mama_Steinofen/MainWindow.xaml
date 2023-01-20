@@ -6,19 +6,14 @@
         xmlns:local="clr-namespace:Mama_Steinofen"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Image HorizontalAlignment="Center" Height="85" VerticalAlignment="Top" Width="780" Source="/Leiste.png"/>
-        <Button HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Height="50" Width="53" BorderThickness="0,0,0,0">
-            <Button.BorderBrush>
-                <ImageBrush ImageSource="/Menu_Icon.png"/>
-            </Button.BorderBrush>
-            <Button.Background>
-                <ImageBrush ImageSource="/Menu_Icon.png"/>
-            </Button.Background>
-        </Button>
+
+
         <Button HorizontalAlignment="Left" Height="50" Margin="727,16,0,0" VerticalAlignment="Top" Width="49" BorderThickness="0,0,0,0" Click="Switch_Login">
             <Button.BorderBrush>
                 <ImageBrush ImageSource="/User_Icon.png"/>
