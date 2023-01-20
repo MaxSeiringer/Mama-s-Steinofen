@@ -21,18 +21,14 @@
             <Button.Background>
                 <ImageBrush ImageSource="/User_Icon.png"/>
             </Button.Background>
-            <Button/>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Margin="659,16,0,0" VerticalAlignment="Top" Height="50" Width="52" BorderThickness="0,0,0,4" Click="Switch_Einkaufswagen">
-            <Button.BorderBrush>
-                <ImageBrush Stretch="Uniform" ImageSource="/Einkaufswagen_Icon.png"/>
-            </Button.BorderBrush>
+        <Image HorizontalAlignment="Center" Height="401" Margin="0,83,0,0" VerticalAlignment="Top" Width="780" Source="/Background.png" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+        <Rectangle HorizontalAlignment="Center" Height="5" Margin="0,78,0,0" VerticalAlignment="Top" Width="780" Cursor="" IsEnabled="False" Fill="#FF6F6E6E"/>
+        <Button Content="" HorizontalAlignment="Left" Height="50" Margin="662,16,0,0" VerticalAlignment="Top" Width="49" BorderThickness="0,0,0,0">
             <Button.Background>
                 <ImageBrush ImageSource="/Einkaufswagen_Icon.png"/>
             </Button.Background>
         </Button>
-        <Image HorizontalAlignment="Center" Height="401" Margin="0,83,0,0" VerticalAlignment="Top" Width="780" Source="/Background.png" Stretch="UniformToFill" StretchDirection="DownOnly"/>
-        <Rectangle HorizontalAlignment="Center" Height="5" Margin="0,78,0,0" VerticalAlignment="Top" Width="780" Cursor="" IsEnabled="False" Fill="#FF6F6E6E"/>
 
 
     </Grid>
