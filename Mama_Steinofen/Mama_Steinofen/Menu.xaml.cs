@@ -15,22 +15,13 @@ using System.Windows.Shapes;
 namespace Mama_Steinofen
 {
     /// <summary>
-    /// Interaktionslogik für Einkaufswagen.xaml
+    /// Interaktionslogik für Window2.xaml
     /// </summary>
-    public partial class Einkaufswagen : Window
+    public partial class Window2 : Window
     {
-        public Einkaufswagen()
+        public Window2()
         {
             InitializeComponent();
         }
-
-        private void Switch_Login(object sender, RoutedEventArgs e)
-        {
-            Login objLogin = new Login();
-            this.Visibility = Visibility.Hidden;
-            objLogin.Show();
-        }
-
-        
     }
 }
