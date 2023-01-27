@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Mama_Steinofen
 {
     /// <summary>
-    /// Interaktionslogik für Menu.xaml
+    /// Interaktionslogik für Kontakt.xaml
     /// </summary>
-    public partial class Menu : Window
+    public partial class Kontakt : Window
     {
-        public Menu()
+        public Kontakt()
         {
             InitializeComponent();
         }

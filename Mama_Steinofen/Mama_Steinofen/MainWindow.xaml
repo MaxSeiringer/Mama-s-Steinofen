@@ -30,6 +30,7 @@
             </Button.Background>
         </Button>
 
+        <TextBlock HorizontalAlignment="Center" FontSize="36" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" Height="40" FontFamily="Times New Roman"><Run Language="de-de" Text="Home"/></TextBlock>
 
     </Grid>
 </Window>
