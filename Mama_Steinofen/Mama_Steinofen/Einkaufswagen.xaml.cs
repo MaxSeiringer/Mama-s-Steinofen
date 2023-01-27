@@ -24,13 +24,15 @@ namespace Mama_Steinofen
             InitializeComponent();
         }
 
-        private void Switch_Login(object sender, RoutedEventArgs e)
-        {
-            Login objLogin = new Login();
-            this.Visibility = Visibility.Hidden;
-            objLogin.Show();
-        }
+       
 
-        
+        //private void Switch_Login(object sender, RoutedEventArgs e)
+        //{
+        //    Login objLogin = new Login();
+        //    this.Visibility = Visibility.Hidden;
+        //    objLogin.Show();
+        //}
+
+
     }
 }
