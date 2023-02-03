@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Mama_Steinofen
+namespace Mama_s_Steinofen
 {
     /// <summary>
     /// Interaktionslogik für "App.xaml"

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9B853DD-9E0C-4CB1-8DB8-5682CF533EE3}</ProjectGuid>
+    <ProjectGuid>{2E12F075-A46E-4E43-88F0-B5F936D1EBA4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Mama_Steinofen</RootNamespace>
-    <AssemblyName>Mama_Steinofen</AssemblyName>
+    <RootNamespace>Mama_s_Steinofen</RootNamespace>
+    <AssemblyName>Mama%27s Steinofen</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,26 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Bestellen.xaml.cs">
-      <DependentUpon>Bestellen.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Kontakt.xaml.cs">
-      <DependentUpon>Kontakt.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Menu.xaml.cs">
-      <DependentUpon>Menu.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Einkaufswagen.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Bestellen.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Einkaufswagen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Kontakt.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Login.xaml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -84,26 +75,28 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Bestellen.xaml.cs">
+      <DependentUpon>Bestellen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Einkaufswagen.xaml.cs">
       <DependentUpon>Einkaufswagen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
+    <Compile Include="Kontakt.xaml.cs">
+      <DependentUpon>Kontakt.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Bestellen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Menu.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -130,28 +123,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Menu_Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="User_Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Leiste.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Einkaufswagen_Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Background.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Button_Login2.jpg" />
-  </ItemGroup>
-<<<<<<< HEAD
-=======
-  <ItemGroup>
+    <Resource Include="Einkaufswagen_Icon.png" />
+    <Resource Include="Leiste.png" />
+    <Resource Include="Menu_Icon.png" />
     <Resource Include="standort.png" />
+    <Resource Include="User_Icon.png" />
   </ItemGroup>
->>>>>>> fb705d0d049bb25cc212e353bc880212fb63eae6
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

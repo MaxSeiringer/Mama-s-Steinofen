@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mama_Steinofen", "Mama_Steinofen\Mama_Steinofen.csproj", "{F9B853DD-9E0C-4CB1-8DB8-5682CF533EE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mama's Steinofen", "Mama's Steinofen\Mama's Steinofen.csproj", "{2E12F075-A46E-4E43-88F0-B5F936D1EBA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9B853DD-9E0C-4CB1-8DB8-5682CF533EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9B853DD-9E0C-4CB1-8DB8-5682CF533EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9B853DD-9E0C-4CB1-8DB8-5682CF533EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9B853DD-9E0C-4CB1-8DB8-5682CF533EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E12F075-A46E-4E43-88F0-B5F936D1EBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E12F075-A46E-4E43-88F0-B5F936D1EBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E12F075-A46E-4E43-88F0-B5F936D1EBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E12F075-A46E-4E43-88F0-B5F936D1EBA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {80DB8296-2D02-45DF-946D-B1E5F3060DB9}
+		SolutionGuid = {021CC1F9-454E-4050-A651-B435744E7410}
 	EndGlobalSection
 EndGlobal
