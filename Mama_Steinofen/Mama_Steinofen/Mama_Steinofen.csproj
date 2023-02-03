@@ -58,10 +58,17 @@
     <Compile Include="Bestellen.xaml.cs">
       <DependentUpon>Bestellen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Kontakt.xaml.cs">
+      <DependentUpon>Kontakt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
     <Page Include="Einkaufswagen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontakt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,5 +147,11 @@
   <ItemGroup>
     <Resource Include="Button_Login2.jpg" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <Resource Include="standort.png" />
+  </ItemGroup>
+>>>>>>> fb705d0d049bb25cc212e353bc880212fb63eae6
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -24,9 +24,13 @@ namespace Mama_Steinofen
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         
 
         private void Button_Click(object sender, RoutedEventArgs e)
+=======
+        private void Switch_Loginbutton_Click(object sender, RoutedEventArgs e)
+>>>>>>> fb705d0d049bb25cc212e353bc880212fb63eae6
         {
             MainWindow objMainWindow = new MainWindow();
             this.Visibility = Visibility.Hidden;
