@@ -7,6 +7,70 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800">
     <Grid>
-        
+
+        <Image HorizontalAlignment="Center" Height="85" VerticalAlignment="Top" Width="780" Source="/Leiste.png"/>
+        <Rectangle HorizontalAlignment="Center" Height="363" Margin="0,71,0,0" VerticalAlignment="Top" Width="780" Fill="#FFBFBFBF"/>
+        <Rectangle HorizontalAlignment="Center" Height="239" Margin="0,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="382" Fill="White"/>
+
+        <Button x:Name="Switch_Login" HorizontalAlignment="Left" Height="50" Margin="727,16,0,0" VerticalAlignment="Top" Width="49" BorderThickness="0,0,0,0">
+            <Button.Background>
+                <ImageBrush ImageSource="/User_Icon.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Height="50" Width="53" BorderThickness="0,0,0,0">
+            <Button.Background>
+                <ImageBrush ImageSource="/Menu_Icon.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button Content="" HorizontalAlignment="Left" Height="50" Margin="662,16,0,0" VerticalAlignment="Top" Width="49" BorderThickness="0,0,0,0">
+            <Button.Background>
+                <ImageBrush ImageSource="/Einkaufswagen_Icon.png"/>
+            </Button.Background>
+        </Button>
+
+        <TextBlock HorizontalAlignment="Center" FontSize="36" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Height="41" FontFamily="Times New Roman"><Run Language="de-de" Text="Login"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="239,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="26" FontFamily="Times New Roman"><Run Text="Benutzername"/><Run Language="de-de" Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="239,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Height="23" FontFamily="Times New Roman"><Run Language="de-de" Text="Passwort:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="446,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Button Content="Als Gast fortfahren" HorizontalAlignment="Left" Margin="386,280,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click" FontWeight="Bold" FontFamily="Arial Black" FontSize="14" Background="#FF2384C3" Foreground="#FFFBFBFB" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.276"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+        <PasswordBox HorizontalAlignment="Left" Margin="446,223,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="232,281,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click" FontWeight="Bold" FontFamily="Arial Black" FontSize="14" Background="#FF2384C3" Foreground="#FFFBFBFB" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.276"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock HorizontalAlignment="Center" FontSize="36" Margin="0,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="41" FontFamily="Times New Roman"><Run Language="de-de" Text="Anmelden"/></TextBlock>
+
+
+
     </Grid>
+
 </Window>
