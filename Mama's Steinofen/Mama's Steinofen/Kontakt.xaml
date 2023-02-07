@@ -36,7 +36,7 @@
 
         <TextBlock HorizontalAlignment="Left" FontSize="36" Margin="30,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" Height="40" FontFamily="Times New Roman"><Run Language="de-de" Text="Kontakt"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="30,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="26" FontFamily="Times New Roman"><Run Language="de-de" Text="Tel.: 0660 420 69 187"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="30,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" Height="25" FontFamily="Times New Roman"><Run Language="de-de" Text="E-Mail: lickmyballs@softly.hs"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="30,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" Height="25" FontFamily="Times New Roman"><Run Language="de-de" Text="E-Mail: mama@gmail.com"/></TextBlock>
 
         <TextBlock HorizontalAlignment="Left" FontSize="36" Margin="30,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Height="40" FontFamily="Times New Roman"><Run Language="de-de" Text="Öffnungszeiten"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" FontSize="20" Margin="30,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Height="26" FontFamily="Times New Roman"><Run Language="de-de" Text="Montag-Sontag 9-20 Uhr"/></TextBlock>
