@@ -8,9 +8,11 @@
         Title="MainWindow" Height="500" Width="800">
     
     <Grid>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        
         <Image HorizontalAlignment="Center" Height="85" VerticalAlignment="Top" Width="780" Source="/Leiste.png"/>
 
 
@@ -22,6 +24,14 @@
                 <ImageBrush ImageSource="/User_Icon.png"/>
             </Button.Background>
         </Button>
+        <Button HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Height="50" Width="53" BorderThickness="0,0,0,0">
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/Menu_Icon.png"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/Menu_Icon.png"/>
+            </Button.Background>
+        </Button>
         <Image HorizontalAlignment="Center" Height="401" Margin="0,83,0,0" VerticalAlignment="Top" Width="780" Source="/Background.png" Stretch="UniformToFill" StretchDirection="DownOnly"/>
         <Rectangle HorizontalAlignment="Center" Height="5" Margin="0,78,0,0" VerticalAlignment="Top" Width="780" Cursor="" IsEnabled="False" Fill="#FF6F6E6E"/>
         <Button Content="" HorizontalAlignment="Left" Height="50" Margin="662,16,0,0" VerticalAlignment="Top" Width="49" BorderThickness="0,0,0,0">
@@ -31,6 +41,25 @@
         </Button>
 
         <TextBlock HorizontalAlignment="Center" FontSize="36" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" Height="40" FontFamily="Times New Roman"><Run Language="de-de" Text="Home"/></TextBlock>
+
+        
+        <ComboBox x:Name="navigationComboBox" Visibility ="Hidden" HorizontalAlignment="Left" Margin="27,31,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="navigationComboBox_SelectionChanged">
+            
+            <ComboBoxItem>Einkaufswagen</ComboBoxItem>
+            <ComboBoxItem>Bestellen</ComboBoxItem>
+            <ComboBoxItem>Kontakt</ComboBoxItem>
+            <ComboBoxItem>Menü</ComboBoxItem>
+            
+            
+
+        </ComboBox>
+
+        
+
+
+
+
+
 
     </Grid>
 </Window>

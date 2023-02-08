@@ -21,8 +21,10 @@ namespace Mama_Steinofen
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
+            
             InitializeComponent();
         }
 
@@ -38,6 +40,26 @@ namespace Mama_Steinofen
             Einkaufswagen objEinkaufswagen = new Einkaufswagen();
             this.Visibility = Visibility.Hidden;
             objEinkaufswagen.Show();
+        }
+
+        private void navigationComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBoxItem selectedItem = (ComboBoxItem)navigationComboBox.SelectedItem; switch (selectedItem.Content)
+            {
+                case "Einkaufswagen":                    
+                    //Weiterleitung
+                    break;
+                case "Bestellen":
+                    //Weiterleitung
+                    break;
+                case "Kontakt":
+                    //Weiterleitung
+                    break;
+                case "Menü":
+                    //Weiterleitung
+                    break;
+
+            }
         }
     }
 }

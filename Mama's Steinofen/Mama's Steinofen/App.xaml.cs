@@ -13,5 +13,6 @@ namespace Mama_s_Steinofen
     /// </summary>
     public partial class App : Application
     {
+        
     }
 }
